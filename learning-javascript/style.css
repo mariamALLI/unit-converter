@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+      width: 70%;
+      max-width: 100%;
+      background: #1F2937;
+      margin: auto;
+      border: 5px solid #fff;
+      border-radius: 15px;
+      margin-top: 150px;
+      
+}
+
+.section1 {
+        background-image: linear-gradient(
+  95deg,
+  hsl(306deg 100% 50%) 0%,
+  hsl(299deg 100% 50%) 28%,
+  hsl(291deg 100% 50%) 48%,
+  hsl(284deg 100% 50%) 62%,
+  hsl(276deg 100% 50%) 73%,
+  hsl(269deg 100% 50%) 81%,
+  hsl(262deg 100% 50%) 87%,
+  hsl(254deg 100% 50%) 93%,
+  hsl(247deg 100% 50%) 100%
+);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2.5rem;
+text-align: center
+}
+
+input {
+    display: block;
+    width: 150px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    background-image: linear-gradient(
+  95deg,
+  hsl(306deg 100% 50%) 0%,
+  hsl(299deg 100% 50%) 28%,
+  hsl(291deg 100% 50%) 48%,
+  hsl(284deg 100% 50%) 62%,
+  hsl(276deg 100% 50%) 73%,
+  hsl(269deg 100% 50%) 81%,
+  hsl(262deg 100% 50%) 87%,
+  hsl(254deg 100% 50%) 93%,
+  hsl(247deg 100% 50%) 100%
+);
+    
+}
+
+.sec__bold {
+        font-size: 1.5em;
+}
+
+#num-el {
+        font-size: 5rem;
+        font-weight: 600;
+}
+
+.section2 {
+        text-align: center;
+        padding: 1.5rem;
+        
+}
+
+.line + .line {
+      margin-top: 30px
+}
+
+#line__bold {
+            font-size: 1rem
+}
+
+#fig1 , #fig2 , #fig3 {
+     color: #D2D2D2;
+     font-size: 14px;
+
+}
+
+span {
+     color: #D2D2D2;
+     font-size: 14px;
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    
+    <header class="card row">
+        <div class="section1">
+            <h1 class="sec__bold">
+                Metric/Imperial Unit Conversion
+            </h1>
+            <input id="num" type="number" placeholder=""  oninput= "unitConvert(this.value)" onchange="unitConvert(this.value)">
+        </div>
+        
+        
+        <div class="section2">
+            <div class="line">
+                <h2 id="line__bold">
+                    Length (Meter/Feet)
+                </h2>
+                <p id="fig1"><span id="outputMeters"></span>meters = <span id="outputMeters1"></span> feet | <span id="outputMeters2"></span>feet = <span id="outputMeters3"></span> meters</p>
+            </div>
+            
+            <div class="line">
+                <h2 id="line__bold">
+                    Volume (Liters/Gallons)
+                </h2>
+                  <p id="fig2"><span id="outputLiters"></span>liters = <span id="outputLiters1"></span> gallons | <span id="outputLiters2"></span>gallons = <span id="outputLiters3"></span> liters</p>
+            </div>
+            
+            <div class="line">
+                <h2 id="line__bold">
+                    Mass (Kilograms/Pounds)
+                </h2>
+                <p id="fig3"><span id="outputKilos"></span>kilos = <span id="outputKilos1"></span> pounds | <span id="outputKilos2"></span>pounds = <span id="outputKilos3"></span> kilos</p>
+            </div>
+        </div>
+    </header>
+    <script src="index.js"></script>
+
+</body>
+</html>
